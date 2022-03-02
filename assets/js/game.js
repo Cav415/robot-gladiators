@@ -12,7 +12,8 @@ for(var i = 0; i < enemyNames.length; i++) {
   fight(enemyNames[i]);
 }
 
-var fight = function (enemyName) {
+function fight(parameters) {
+  // code to be executed {
 
   // Alert players that they are starting the round
   window.alert("Welcome to Robot Gladiators!");
