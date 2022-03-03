@@ -12,7 +12,7 @@ for(var i = 0; i < enemyNames.length; i++) {
   fight(enemyNames[i]);
 }
 
-function fight(parameters) {
+function fight(enemyName) {
   // code to be executed {
 
   // Alert players that they are starting the round
