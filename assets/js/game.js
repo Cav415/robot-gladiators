@@ -34,6 +34,7 @@ function fight(enemyName) {
         console.log("playerMoney", playerMoney);
         break;
       }
+    }
       if (promptFight === "fight" || promptFight === "FIGHT") {
 
         // remove enemy's health by subtracting the amount set in the playerAttack variable
@@ -64,16 +65,18 @@ function fight(enemyName) {
           window.alert(playerName + " still has " + playerHealth + " health left.");
         }
         // if player choses to skip
-      }
+      // }
       // if no (false), ask question again by running fight() again
-      else {
-        fight();
-      }
+      // else {
+      //   fight();
+      // }
       window.alert(playerName + " has chosen to skip the fight!");
-    } else {
+    }
+    else {
       window.alert("You need to choose a valid option. Try again!");
     }
 
   }
 }
+// }
 //fight()
