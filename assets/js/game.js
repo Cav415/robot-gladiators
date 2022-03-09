@@ -14,11 +14,11 @@ var enemyHealth = 50;
 var enemyAttack = 12;
 
 
-// for (var i = 0; i < enemyNames.length; i++) {
-//   var pickedEnemyName = enemyNames[i];
-//   enemyHealth = 50;
-//   fight(pickedEnemyName);
-// }
+for (var i = 0; i < enemyNames.length; i++) {
+  var pickedEnemyName = enemyNames[i];
+  enemyHealth = 50;
+  fight(pickedEnemyName);
+}
 var fight = function (enemyName) {
   while (enemyHealth > 0) {
     window.alert("Welcome to Robot Gladiators!")
